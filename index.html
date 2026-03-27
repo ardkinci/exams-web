@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>yazililar</h1>
+<p>Select a folder:</p>
+
+<div class="grid">
+  {% for exam in site.exams %}
+    <a href="{{ site.baseurl }}{{ exam.url }}" role="button" class="outline" style="margin-bottom: 1rem; display: block;">
+      <strong>{{ exam.title }}</strong><br>
+      <small>Tarih: {{ exam.date | date: "%d.%m.%Y" }}</small>
+    </a>
+  {% endfor %}
+</div>
