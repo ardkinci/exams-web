@@ -1,8 +1,9 @@
 title: 2d 1yazililar
 description: yazılı
 
+future: true
+
 collections:
   exams:
-    future: true
     output: true
     permalink: /exams/:title/
