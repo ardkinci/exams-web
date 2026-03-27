@@ -4,4 +4,4 @@ description: yazılı
 collections:
   exams:
     output: true
-    permalink: /yazili/:title/
+    permalink: /exams/:title/
