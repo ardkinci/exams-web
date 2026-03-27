@@ -3,5 +3,6 @@ description: yazılı
 
 collections:
   exams:
+    future: true
     output: true
     permalink: /exams/:title/
