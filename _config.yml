@@ -1,0 +1,7 @@
+title: 2d 1yazililar
+description: yazılı
+
+collections:
+  exams:
+    output: true
+    permalink: /yazili/:title/
